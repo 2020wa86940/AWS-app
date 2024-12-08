@@ -2,7 +2,7 @@ name: Terraform EC2 Provisioning
 on: workflow_dispatch
 jobs:
  terraform:
-   runs-on: self-hosted
+   runs-on: ubuntu-latest
    steps:
    - name: Checkout Code
      uses: actions/checkout@v3
